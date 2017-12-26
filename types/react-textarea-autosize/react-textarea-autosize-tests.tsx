@@ -1,5 +1,5 @@
 import * as React from "react";
-import Textarea from "react-textarea-autosize";
+import Textarea = require("react-textarea-autosize");
 
 class Test extends React.Component {
     public ref: HTMLTextAreaElement
